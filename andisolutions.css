@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --blue:rgb(22, 76, 224);
+    --red2:rgb(255, 11, 11);
+    --red:#9d0f0f;
+    --gray:#757373;
+    --black:black;
+    --white:white;
+    --orange:rgb(245, 164, 13);
+    --primary-text-color:#183b56;
+    --secondary-text-color:#577592;
+    --accent-color:#2294de;
+    --accent-dark-color:#1d69a3;
+    --padding-inline-section:20px;
+}
+
+/* Resets */
+body{
+    font-family: "Poppins" , sans-serif;
+    background-color: #bcbcbc;
+   
+}
+
+p{
+    font-family: "Roboto" , sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+    color:var(--primary-text-color)
+}
+
+ul{
+    list-style: none;
+}
+
+h2{
+    color: var(--red);
+    font-size: 1.5rem;
+    margin-left: 8px;
+}
+/* utility classes */
+
+.container{
+    max-width: 1150px;
+    margin-inline: auto;
+    padding-inline: 2px;
+    overflow: hidden;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+/* header */
+
+ .main-header {
+    font-family: 'Roboto',sans-serif;
+    gap: 490px;
+    font-size: 1.2rem;
+    position: relative;
+    height: 10vh;
+    background-color: #0fac39;
+    
+ }
+
+ .header-box{
+    margin-left: 100px;
+    padding: 8px 12px;
+    box-shadow: 0 0 1.8px var(--black) ;
+ }
+
+ .contact{
+    justify-items: end;
+    color: rgb(37, 46, 167);
+ }
+
+
+
+
+/* nav-bar */
+.main-nav{
+    margin-top: 30px;
+    justify-content: space-between;
+    height: 25vh;
+    position: relative;
+}
+
+.nav-bar-1 ul{
+    justify-content: end;
+    gap: 50px;
+    font-size: 1.25rem;
+}
+
+.nav-name{
+    color: rgb(47, 43, 43);
+    padding: 8px 15px;
+    box-shadow: 0 0 2px var(--blue);
+}
+
+
+.nav-name:hover{
+    border-radius: 20px;
+    color: var(white);
+    font-size: 21px;
+    box-shadow: 0 0 1px var(--blue);
+    background-color: #2294de;
+}
+.nav-toggle{
+    display: none;
+}
+
+.brand-ANDi img{
+    margin-left: 50px;
+    border-radius: 200px;
+
+}
+
+
+/* marquee */
+
+.left-move{
+    color: var(--blue);
+    font-size: 17px;
+    margin: 13px 0;
+    justify-content: end;
+}
+
+/* banner */
+
+.banner img{
+    width: 100%;
+    margin: 11px 0;
+    height: 63vh;
+    flex-wrap: wrap;
+}
+
+/* Main-Content */
+.ANDi-content h3{
+    color: #6d0f0f;
+   
+}
+.ANDi-content p{
+   color: #183b56;
+ box-shadow: 0 0 2px var(--gray);
+  margin: 20px 0;
+
+}
+.about{
+    color: #2294de;
+    margin-top: 13px ;
+    text-align: center;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* cloud-Software */
+.design-table{
+    border: 2px solid;
+    margin-bottom: 15px;
+  }
+.design-table td{
+  border: 1px solid;
+}
+.cloud-software-img{
+   width: 20vw;
+   height: 20vh;
+}
+
+.services{
+    color: #233224;
+    font-weight: lighter;
+    margin: 10px 11px;
+}
+
+
+/* contact section */
+
+.ANDi-contact{
+    text-align: center;
+    height:120vh;
+    padding: 15px 20px ;
+   background-color: #1a0a5a;
+   color: #d2d208;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ANDi-contact p{
+    color: #d2d208;
+}
+
+
+.social-media a{
+    font-size: 20px;
+     color: var(--black) ;
+     padding-left: 15px;
+     
+}
+
+.Andi-map iframe{
+    height: 65vh;
+    width: 70%;
+    margin: auto;
+}
+
+
+/* copyright info */
+.copyright-info{
+    display: flex;
+    text-align: center;
+     justify-content: center;
+     color:var(--black);
+     font-weight: 700px;
+     margin: 10px 0;
+}
